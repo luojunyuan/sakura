@@ -6,6 +6,26 @@
 # - app.Application
 # - main.MainObject: Root of all non-widget qobject
 
+"""1.加载config
+2.设置app id
+3.创建rc cache文件夹
+4.导入opencc设置辞书路径
+5.app.application初始化
+6.app加载translation
+7.sktr 设置parent
+8.导入目录下settings全局设置，设置parent
+setting reader初始化reader
+9.一段更新检测逻辑
+10.加载鼠标主题
+11.skpath加入翻译器路径
+12.设置fastaitLocation
+13.设置qt最大线程数，如果比设置里还小就设置
+14.加载webrc
+15.大陆设置谷歌特殊待遇
+16.导入main，mainObeject，并且传入app参数，跑起来
+17.app exec？"""
+
+
 ## MAIN TEMPLATE BEGIN ##
 
 import os, sys

@@ -2,6 +2,10 @@
 # settings.py
 # 12/13/2012 jichi
 
+"""这是Qt的一些设置
+包括各个翻译器开关定义
+vnr各项设置开关定义"""
+
 from PySide2.QtCore import QSettings, Signal
 from sakurakit.skclass import memoized
 from sakurakit.sktypes import to_int, to_unicode

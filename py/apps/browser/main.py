@@ -79,7 +79,7 @@ class MainObject(QObject):
     dprint("leave")
 
   def confirmQuit(self):
-    from Qt5.QtWidgets import QMessageBox
+    from PySide2.QtWidgets import QMessageBox
     yes = QMessageBox.Yes
     no = QMessageBox.No
     sel = QMessageBox.question(self.__d.rootWindow,

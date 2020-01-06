@@ -22,6 +22,7 @@ class Application(QApplication):
     dprint("pass")
 
   def loadTranslations(self):
+    """加载yaml里的Qt翻译路径并安装"""
     locale = self.applicationLocale()
     #if locale in config.TR_LOCALES:
     dprint("loading translation for %s" % locale)
